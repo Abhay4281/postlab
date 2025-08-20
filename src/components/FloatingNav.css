@@ -1,0 +1,29 @@
+/* FloatingNav.css */
+
+.floating-nav {
+    position: fixed;
+    bottom: 30px;
+    /* bottom center */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+.nav-btn {
+    background-color: grey;
+    /* default background */
+    color: white;
+    /* default text */
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+}
+
+.nav-btn:hover,
+.nav-btn.active {
+    background-color: white;
+    /* hover or active background */
+    color: black;
+    /* hover or active text */
+}

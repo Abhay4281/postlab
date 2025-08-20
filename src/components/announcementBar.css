@@ -1,0 +1,10 @@
+.announcement-bar {
+    z-index: 3;
+    background-color: var(--_primary---black);
+    color: var(--_primary---white);
+    text-align: center;
+    padding: 12px 60px;
+    line-height: 140%;
+    position: relative;
+    opacity: 1;
+}
